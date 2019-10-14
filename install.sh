@@ -25,7 +25,7 @@ Install_ss()
     "local_address":"127.0.0.1",
     "local_port":1080,
     "port_password":{
-    	"62443":"$password"
+    	"53":"$password"
     },
     "timeout":300,
     "method":"aes-256-cfb",
@@ -35,7 +35,7 @@ EOF
     groupadd ssuser
     useradd -s /sbin/nologin -M -g ssuser ssuser
     chown ssuser:ssuser $pluginPath/config.json
-    Set_port 62443
+    Set_port 53
     /etc/init.d/ss start
 }
 
