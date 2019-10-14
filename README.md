@@ -6,7 +6,7 @@
 <p>操作系统：Centos/Ubuntu</p>
 
 <h2>安装</h2>
-<p>git clone https://github.com/tcwl/BT-SS</p>
+<p>git clone https://github.com/x0rz4/BT-SS</p>
 <p>cd BT-SS</p>
 <p>bash install.sh install</p>
 
